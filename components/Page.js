@@ -9,7 +9,7 @@ export default ({ children }) => {
         {`
           body {
             color: #666;
-            font-family: Cousine, sans-serif;
+            font-family: Menlo, sans-serif;
           }
           header {
             margin: 0 0 4em;

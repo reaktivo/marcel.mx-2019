@@ -73,6 +73,7 @@ export default ({ activeHref, children }) => (
   <List>
     {articles.map(({ date, href, tags }) => (
       <Article
+        key={href}
         isActive={activeHref === href}
         date={date}
         href={href}
